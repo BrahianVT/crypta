@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crypta/static/css/main.c61fe05b.css",
-    "main.js": "/crypta/static/js/main.0941bca3.js",
+    "main.js": "/crypta/static/js/main.d42ee1df.js",
     "static/media/AgencyLandingPage.jpeg": "/crypta/static/media/AgencyLandingPage.717f8ed6737d6161b153.jpeg",
     "static/media/HotelTravelLandingPage.jpeg": "/crypta/static/media/HotelTravelLandingPage.7cba2215c02e6e82fc39.jpeg",
     "static/media/PrivacyPolicyPage.jpeg": "/crypta/static/media/PrivacyPolicyPage.87eaa1f87d0f370b9a87.jpeg",
@@ -80,7 +80,6 @@
     "static/media/x.svg": "/crypta/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/star-icon.svg": "/crypta/static/media/star-icon.38c390e6157f5d50ed3352f1a73ca7ee.svg",
     "static/media/logo-light.svg": "/crypta/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg",
-    "static/media/logo.svg": "/crypta/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg",
     "static/media/chevron-left.svg": "/crypta/static/media/chevron-left.982a40d4f9e3cf9fdaeaf4af9da46c14.svg",
     "static/media/chevron-right.svg": "/crypta/static/media/chevron-right.d45fd2f46e93f5c3aa0a7d0617d9fecf.svg",
     "static/media/chevron-down.svg": "/crypta/static/media/chevron-down.c3e123cf78bc368a192f3e2dee97daba.svg",
@@ -93,10 +92,10 @@
     "static/media/arrow-right-3-icon.svg": "/crypta/static/media/arrow-right-3-icon.d415f77e8dc81ff77fdb53c0ee2da771.svg",
     "static/media/handle-icon.svg": "/crypta/static/media/handle-icon.75eb6395a03cd55833f64fd24df39ff5.svg",
     "main.c61fe05b.css.map": "/crypta/static/css/main.c61fe05b.css.map",
-    "main.0941bca3.js.map": "/crypta/static/js/main.0941bca3.js.map"
+    "main.d42ee1df.js.map": "/crypta/static/js/main.d42ee1df.js.map"
   },
   "entrypoints": [
     "static/css/main.c61fe05b.css",
-    "static/js/main.0941bca3.js"
+    "static/js/main.d42ee1df.js"
   ]
 }
