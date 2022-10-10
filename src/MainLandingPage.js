@@ -61,14 +61,14 @@ const SectionContainer = tw(ContentWithVerticalPadding)``;
 const SectionHeading = tw(HeadingBase)`text-primary-900`;
 const SectionDescription = tw(DescriptionBase)`text-center mx-auto text-gray-600 max-w-4xl`;
 
-const PreviewCards = tw.div`flex flex-wrap -mr-12`;
+/*const PreviewCards = tw.div`flex flex-wrap -mr-12`;
 const PreviewCardContainer = tw.div`mt-24 mx-auto md:mx-0 max-w-lg w-full md:w-1/2 lg:w-1/3 pr-12`;
 const PreviewCard = tw(motion.a)`block rounded-lg shadow-raised`;
 const PreviewCardImageContainer = tw.div`rounded-t-lg border-0 border-b-0`;
 const PreviewCardImage = styled(motion.div)`
   ${props => css`background-image: url("${props.$imageSrc}");`}
   ${tw`h-128 md:h-144 bg-cover bg-left-top`}
-`;
+`;*/
 const PreviewButton = tw(PrimaryButtonBase)`w-full rounded-b-lg rounded-t-none py-5 font-semibold`;
 
 const ComponentsContainer = tw.div`mt-24`;
@@ -119,9 +119,9 @@ export default ({
     }
   };
 
-  const noOfLandingPages = Object.keys(landingPages).length;
-  const noOfInnerPages = Object.keys(innerPages).length;
-  const noOfComponentBlocks = Object.values(blocks).reduce((acc, block) => acc + Object.keys(block.elements).length, 0);
+  //const noOfLandingPages = Object.keys(landingPages).length;
+  //const noOfInnerPages = Object.keys(innerPages).length;
+  //const noOfComponentBlocks = Object.values(blocks).reduce((acc, block) => acc + Object.keys(block.elements).length, 0);
 
   features = features || [
     `ETH main net`,
