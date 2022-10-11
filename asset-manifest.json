@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crypta/static/css/main.c61fe05b.css",
-    "main.js": "/crypta/static/js/main.016b7704.js",
+    "main.js": "/crypta/static/js/main.abce6743.js",
     "static/media/AgencyLandingPage.jpeg": "/crypta/static/media/AgencyLandingPage.717f8ed6737d6161b153.jpeg",
     "static/media/HotelTravelLandingPage.jpeg": "/crypta/static/media/HotelTravelLandingPage.7cba2215c02e6e82fc39.jpeg",
     "static/media/PrivacyPolicyPage.jpeg": "/crypta/static/media/PrivacyPolicyPage.87eaa1f87d0f370b9a87.jpeg",
@@ -91,10 +91,10 @@
     "static/media/arrow-right-3-icon.svg": "/crypta/static/media/arrow-right-3-icon.d415f77e8dc81ff77fdb53c0ee2da771.svg",
     "static/media/handle-icon.svg": "/crypta/static/media/handle-icon.75eb6395a03cd55833f64fd24df39ff5.svg",
     "main.c61fe05b.css.map": "/crypta/static/css/main.c61fe05b.css.map",
-    "main.016b7704.js.map": "/crypta/static/js/main.016b7704.js.map"
+    "main.abce6743.js.map": "/crypta/static/js/main.abce6743.js.map"
   },
   "entrypoints": [
     "static/css/main.c61fe05b.css",
-    "static/js/main.016b7704.js"
+    "static/js/main.abce6743.js"
   ]
 }
