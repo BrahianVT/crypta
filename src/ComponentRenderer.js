@@ -33,7 +33,7 @@ import PricingPageImageSrc from "images/demo/PricingPage.jpeg";
 import AboutUsPageImageSrc from "images/demo/AboutUsPage.jpeg";
 import ContactUsPageImageSrc from "images/demo/ContactUsPage.jpeg";
 import BlogIndexPageImageSrc from "images/demo/BlogIndexPage.jpeg";
-import TermsOfServicePageImageSrc from "images/demo/TermsOfServicePage.jpeg";
+//import TermsOfServicePageImageSrc from "images/demo/TermsOfServicePage.jpeg";
 import PrivacyPolicyPageImageSrc from "images/demo/PrivacyPolicyPage.jpeg";
 /*
 import BackgroundAsImageHero from "components/hero/BackgroundAsImage.js";

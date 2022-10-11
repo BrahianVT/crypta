@@ -98,7 +98,7 @@ export default ({
   innerPages = components.innerPages,
   blocks = components.blocks,
   heading = "Api for Analitycs in ETH",
-  description = "API to get mainly transactions frm the ETH main net, more coming soon..."
+  description = "API to get mainly transactions from the ETH main net, more coming soon..."
 }) => {
   /*
    * Using gtag like this because we only want to use Google Analytics when Main Landing Page is rendered
@@ -231,7 +231,7 @@ const Block = ({ notifyIsVisible, components }) => {
           <Component key={componentIndex}>
             <ComponentHeading>
               <ComponentName>{component.name}</ComponentName>
-              <ComponentPreviewLink className="group" href={component.url} target="_blank">
+              <ComponentPreviewLink className="group" href={ process.env.PUBLIC_URL +'/#'+ component.url} target="_blank">
                 Check{" "}
                 <ArrowRightIcon tw="transition duration-300 transform group-hover:translate-x-px ml-2 w-4 h-4" />
               </ComponentPreviewLink>
@@ -248,13 +248,13 @@ const Block = ({ notifyIsVisible, components }) => {
                 enableResizing={{ right: true }}
                 resizeHandleComponent={{ right: ResizeHandle }}
                 resizeHandleWrapperClass={`resizeHandleWrapper`}
-                onResize={() => updateComponentBlockIframeHeight(componentBlockRefs[component.url])}
+                onResize={() => updateComponentBlockIframeHeight(componentBlockRefs[process.env.PUBLIC_URL +'/#/'+ component.url])}
               >
                 <iframe
-                  src={component.url}
+                  src={process.env.PUBLIC_URL +'/#'+ component.url}
                   title="Hero"
                   width="100%"
-                  ref={ref => (componentBlockRefs[component.url] = ref)}
+                  ref={ref => (componentBlockRefs[process.env.PUBLIC_URL +'/#'+ component.url] = ref)}
                   onLoad={e => updateComponentBlockIframeHeight(e.target)}
                 />
               </ResizableBox>

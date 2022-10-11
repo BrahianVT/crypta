@@ -1,7 +1,6 @@
 import React from "react";
 import GlobalStyles from 'styles/GlobalStyles';
 import { css } from "styled-components/macro"; //eslint-disable-line
-
 /*
  * This is the entry point component of this project. You can change the below exported default App component to any of
  * the prebuilt landing page components by uncommenting their import and export lines respectively.
@@ -103,7 +102,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import TwoPlansWithDurationSwitcher from "components/pricing/TwoPlansWithDurationSwitcher.js";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -114,9 +114,10 @@ export default function App() {
     <>
       <GlobalStyles />
       <Router>
-        <Routes>
+        <Routes  basename={process.env.PUBLIC_URL}>
           <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
-          <Route path="/components/:type/:name" element={<ComponentRenderer />} />
+          <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
+          <Route path="components/blocks/Pricing/TwoPlansWithDurationSwitcher" element={<TwoPlansWithDurationSwitcher />} />
           <Route path="/" element={<MainLandingPage />} />
         </Routes>
       </Router>
